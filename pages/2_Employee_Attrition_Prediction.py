@@ -4,12 +4,6 @@ st.set_page_config(page_title="Employee Attrition Predictor", page_icon="🤖", 
 
 st.markdown("""
 <style>
-section[data-testid="stSidebar"] {
-    display: none !important;
-}
-[data-testid="collapsedControl"] {
-    display: none !important;
-}
 
 .hero {
     background: linear-gradient(135deg, #0f172a, #1e3a8a);
