@@ -5,30 +5,14 @@ import plotly.express as px
 st.set_page_config(page_title="EDA Dashboard", page_icon="📊", layout="wide")
 
 st.markdown("""
-<style>
-[data-testid="stSidebar"], [data-testid="collapsedControl"] {
-    display: none;
-}
-.hero {
-    background: linear-gradient(135deg, #0f172a, #1e3a8a);
-    padding: 40px;
-    border-radius: 22px;
-    color: white;
-    margin-bottom: 30px;
-}
-.card {
-    background: #ffffff;
-    padding: 22px;
-    border-radius: 18px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-}
-.stButton button {
-    width: 100%;
-    border-radius: 12px;
-    padding: 12px;
-    font-weight: 700;
-}
-</style>
+<div class="hero">
+    <h1>📊 Employee Attrition EDA Dashboard</h1>
+
+    <p>
+    Explore employee data, attrition distribution,
+    department patterns, and HR-related trends.
+    </p>
+</div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
