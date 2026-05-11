@@ -82,13 +82,16 @@ Modern responsive interface with custom styling and multi-page navigation.
 
 # 🏆 Final Model Selection
 
-Gradient Boosting with SMOTE achieved the highest Recall score for detecting attrition cases.
+Gradient Boosting (SMOTE) achieved the highest Recall score of **0.98**, making it highly effective at detecting employee attrition cases.
 
-However, Logistic Regression (Tuned) was selected as the final deployed model because it provided a better balance between:
+However, **Logistic Regression (Tuned)** with an **F1-score of 0.30** and **Recall of 0.51** was selected as the final deployed model because it provided a better balance between:
+
 - Recall
 - F1-Score
 - Stability
-- Generalization on imbalanced data
+- Generalization performance
+
+This resulted in more reliable and stable overall performance on the imbalanced employee attrition dataset.
 
 ---
 
