@@ -3,9 +3,10 @@ import pandas as pd
 import numpy as np
 import joblib
 
-# Load trained model
-model = joblib.load('attrition_model.pkl')
+import pickle
 
+with open("attrition_model.pkl", "rb") as f:
+    model = pickle.load(f)
 # Page configuration
 st.set_page_config(
     page_title="Employee Attrition Prediction",
