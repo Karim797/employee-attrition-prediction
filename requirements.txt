@@ -1,8 +1,8 @@
-streamlit==1.44.1
-pandas==2.2.2
+streamlit
+pandas
 numpy
-joblib==1.5.3
-scikit-learn==1.4.2
+scikit-learn
+joblib
 imbalanced-learn
 matplotlib
 seaborn
