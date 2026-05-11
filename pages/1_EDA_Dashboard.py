@@ -57,7 +57,7 @@ with col_nav2:
 
 st.markdown("---")
 
-df = pd.read_csv("Employee_Attrition - Raw_DataSet.csv")
+df = pd.read_csv("cleaned_employee_attrition.csv")
 
 st.subheader("Dataset Overview")
 
