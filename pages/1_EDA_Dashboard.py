@@ -6,12 +6,10 @@ st.set_page_config(page_title="EDA Dashboard", page_icon="📊", layout="wide")
 
 st.markdown("""
 <style>
-
 section[data-testid="stSidebar"] {
     display: none !important;
 }
-
-button[kind="header"] {
+[data-testid="collapsedControl"] {
     display: none !important;
 }
 
@@ -24,12 +22,12 @@ button[kind="header"] {
 }
 
 .hero h1 {
-    font-size: 52px;
+    font-size: 48px;
     font-weight: 800;
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 19px;
     color: #e5e7eb;
 }
 
@@ -39,9 +37,19 @@ button[kind="header"] {
     padding: 12px;
     font-weight: 700;
 }
-
 </style>
 """, unsafe_allow_html=True)
+
+st.markdown("""
+<div class="hero">
+    <h1>📊 Employee Attrition EDA Dashboard</h1>
+    <p>
+    Explore employee data, attrition distribution, department patterns,
+    missing values, and HR-related trends.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
 col_nav1, col_nav2 = st.columns(2)
 
 with col_nav1:
