@@ -5,23 +5,43 @@ import plotly.express as px
 st.set_page_config(page_title="EDA Dashboard", page_icon="📊", layout="wide")
 
 st.markdown("""
-<div class="hero">
-    <h1>📊 Employee Attrition EDA Dashboard</h1>
+<style>
 
-    <p>
-    Explore employee data, attrition distribution,
-    department patterns, and HR-related trends.
-    </p>
-</div>
+section[data-testid="stSidebar"] {
+    display: none !important;
+}
+
+button[kind="header"] {
+    display: none !important;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    padding: 45px;
+    border-radius: 22px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 700;
+}
+
+</style>
 """, unsafe_allow_html=True)
-
-st.markdown("""
-<div class="hero">
-    <h1>📊 Employee Attrition EDA Dashboard</h1>
-    <p>Explore employee data, attrition distribution, department patterns, and HR-related trends.</p>
-</div>
-""", unsafe_allow_html=True)
-
 col_nav1, col_nav2 = st.columns(2)
 
 with col_nav1:
