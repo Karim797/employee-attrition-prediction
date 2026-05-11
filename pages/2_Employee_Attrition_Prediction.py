@@ -4,7 +4,7 @@ st.title("Employee Attrition Prediction")
 
 st.write("Enter employee information to estimate attrition risk.")
 
-Age = st.number_input("Age", min_value=18, max_value=65, value=30)
+Age = st.number_input("Age", min_value=18, max_value=100, value=30)
 Gender = st.selectbox("Gender", ["Male", "Female"])
 Marital_Status = st.selectbox("Marital Status", ["Single", "Married", "Divorced"])
 Department = st.selectbox("Department", ["Sales", "HR", "Finance", "Marketing", "IT"])
