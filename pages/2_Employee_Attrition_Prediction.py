@@ -4,12 +4,10 @@ st.set_page_config(page_title="Employee Attrition Predictor", page_icon="🤖", 
 
 st.markdown("""
 <style>
-
 section[data-testid="stSidebar"] {
     display: none !important;
 }
-
-button[kind="header"] {
+[data-testid="collapsedControl"] {
     display: none !important;
 }
 
@@ -22,24 +20,38 @@ button[kind="header"] {
 }
 
 .hero h1 {
-    font-size: 52px;
+    font-size: 48px;
     font-weight: 800;
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 19px;
     color: #e5e7eb;
 }
 
 .stButton > button {
     width: 100%;
+    background: linear-gradient(90deg, #0f172a, #2563eb);
+    color: white;
     border-radius: 12px;
-    padding: 12px;
+    padding: 14px;
+    font-size: 18px;
     font-weight: 700;
+    border: none;
 }
-
 </style>
 """, unsafe_allow_html=True)
+
+st.markdown("""
+<div class="hero">
+    <h1>🤖 Employee Attrition Predictor AI</h1>
+    <p>
+    A smart HR analytics interface designed to estimate employee attrition risk
+    using workplace, satisfaction, and performance indicators.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
 col_nav1, col_nav2 = st.columns(2)
 
 with col_nav1:
