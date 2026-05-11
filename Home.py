@@ -26,7 +26,29 @@ st.write("""
 """)
 
 st.markdown("---")
+st.markdown("---")
 
+st.header("📊 Dataset Overview")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.metric("Dataset Rows", "8,361")
+
+with col2:
+    st.metric("Features", "27")
+
+with col3:
+    st.metric("Target Classes", "2")
+
+st.write("""
+The dataset contains employee-related information such as demographics,
+job role, department, income, satisfaction levels, work-life balance,
+performance indicators, and attrition status.
+
+The cleaned dataset was used in the dashboard to ensure consistent categories
+such as gender, department, and attrition labels.
+""")
 st.header("🛠 Technologies Used")
 
 st.write("""
