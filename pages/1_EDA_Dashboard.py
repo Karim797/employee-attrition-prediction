@@ -6,10 +6,8 @@ st.set_page_config(page_title="EDA Dashboard", page_icon="📊", layout="wide")
 
 st.markdown("""
 <style>
-
-
 .hero {
-    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    background: linear-gradient(135deg, #052e16, #166534);
     padding: 45px;
     border-radius: 22px;
     color: white;
@@ -23,14 +21,23 @@ st.markdown("""
 
 .hero p {
     font-size: 19px;
-    color: #e5e7eb;
+    color: #dcfce7;
 }
 
 .stButton > button {
     width: 100%;
+    background: linear-gradient(90deg, #052e16, #16a34a);
+    color: white;
     border-radius: 12px;
-    padding: 12px;
+    padding: 14px;
+    font-size: 18px;
     font-weight: 700;
+    border: none;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #064e3b, #22c55e);
+    color: white;
 }
 </style>
 """, unsafe_allow_html=True)
