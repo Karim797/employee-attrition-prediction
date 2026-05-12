@@ -89,7 +89,15 @@ However, Logistic Regression (Tuned) was selected as the final deployed model du
 
 
 ---
+## Acknowledgment
 
+This project was developed as part of the Epsilon AI Data Science & Machine Learning Program.
+
+Special thanks to the Epsilon AI team for the learning materials, project guidance, and mentorship throughout the program.
+
+Main Epsilon AI Repository:
+https://github.com/Epsilon-AI
+---
 # 📁 Project Structure
 
 ```bash
