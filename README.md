@@ -165,8 +165,8 @@ Real-time HR analytics
 Developed by Karim797
 ## Project Links
 
-🔗 Dashboard: https://your-streamlit-link.streamlit.app
+🔗 Live Dashboard: https://employee-attrition-prediction-zjeapazbjm2du7jthbkddr.streamlit.app/Employee_Attrition_Prediction
 
-🎥 Video Demo: https://drive.google.com/your-video-link
+📓 Colab Notebook: https://colab.research.google.com/drive/1wQwRJ_Ox6zbnLozD7DKYD9B8NfjWuAKm?usp=drive_link
 
-💻 GitHub Repo: https://github.com/yourusername/project-name
+🎥 Video Demo: https://drive.google.com/file/d/1w9weDM43YrYcHPod5A2Ggfq928RPGx5X/view?usp=drive_link
