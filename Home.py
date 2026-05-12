@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🤖 Employee Attrition Prediction System")
+st.title(" Employee Attrition Prediction System")
 
 st.write("""
 An AI-powered HR analytics platform designed to analyze employee behavior,
