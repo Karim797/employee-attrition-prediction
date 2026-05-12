@@ -82,13 +82,17 @@ Modern responsive multi-page interface with clean navigation.
 
 # 🏆 Final Model Selection
 
-Although **Gradient Boosting with SMOTE** achieved the highest Recall score and showed strong performance in detecting attrition cases, **Tuned Logistic Regression** was selected as the final deployed model because it is:
+**Logistic Regression with SMOTE** was selected as the final deployment model because it provided the best overall balance between **Recall and F1-score** for this imbalanced employee attrition classification problem.
 
-- Simpler
-- Faster
-- More interpretable
-- Less computationally expensive
-- More practical for real-world HR deployment
+Although **Decision Tree** achieved a higher Recall score, Logistic Regression with SMOTE demonstrated more stable and balanced performance, making it a more reliable choice.
+
+Additionally, it offers:
+
+- Better interpretability
+- Lower risk of overfitting
+- Faster prediction speed
+- Lower computational cost
+- Better suitability for real-world HR deployment
 
 ---
 
@@ -200,7 +204,6 @@ The deployed application includes:
 # 👨‍💻 Author
 
 Developed by **Karim797**
-
 ---
 
 # 🔗 Project Links
