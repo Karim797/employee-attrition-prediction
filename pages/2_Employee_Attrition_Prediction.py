@@ -96,7 +96,7 @@ Overtime = 1 if Overtime_input == "Yes" else 0
 
 st.markdown("---")
 
-if st.button("🚀 Predict Attrition Risk"):
+if st.button(" Predict Attrition Risk"):
 
     risk_score = 0
 
