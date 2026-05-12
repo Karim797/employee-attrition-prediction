@@ -212,4 +212,4 @@ Developed by **Karim797**
 
 📓 [Colab Notebook](https://colab.research.google.com/drive/1wQwRJ_Ox6zbnLozD7DKYD9B8NfjWuAKm?usp=drive_link)
 
-🎥 [Video Demo](https://drive.google.com/file/d/1w9weDM43YrYcHPod5A2Ggfq928RPGx5X/view?usp=drive_link)
+🎥 [Video Demo](https://drive.google.com/file/d/1z0UB8xs0aFASncC_oeWZdBcLZ5JTlPej/view?usp=drive_link)
