@@ -163,7 +163,10 @@ Cloud deployment
 Real-time HR analytics
 👨‍💻 Author
 Developed by Karim797
-## Dashboard Link
- [https://colab.research.google.com/drive/1wQwRJ_Ox6zbnLozD7DKYD9B8NfjWuAKm#scrollTo=bq93LInFGoRE](https://colab.research.google.com/drive/1wQwRJ_Ox6zbnLozD7DKYD9B8NfjWuAKm?usp=drive_link)
-## vedio link:
- https://drive.google.com/file/d/1w9weDM43YrYcHPod5A2Ggfq928RPGx5X/view?usp=drive_link
+## Project Links
+
+🔗 Dashboard: https://your-streamlit-link.streamlit.app
+
+🎥 Video Demo: https://drive.google.com/your-video-link
+
+💻 GitHub Repo: https://github.com/yourusername/project-name
