@@ -163,3 +163,5 @@ Cloud deployment
 Real-time HR analytics
 👨‍💻 Author
 Developed by Karim797
+Dashboard Link https://colab.research.google.com/drive/1wQwRJ_Ox6zbnLozD7DKYD9B8NfjWuAKm#scrollTo=bq93LInFGoRE
+vedio link:
