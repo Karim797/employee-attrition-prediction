@@ -42,7 +42,7 @@ st.markdown("""
 
 st.markdown("""
 <div class="hero">
-    <h1>🤖 Employee Attrition Predictor AI</h1>
+    <h1> Employee Attrition Predictor AI</h1>
     <p>
     A smart HR analytics interface designed to estimate employee attrition risk
     using workplace, satisfaction, and performance indicators.
