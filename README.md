@@ -1,4 +1,4 @@
-# 👨‍💼 Employee Attrition Prediction System
+# Employee Attrition Prediction System
 
 A modern end-to-end Machine Learning application built with Streamlit to analyze employee behavior, visualize workforce insights, and predict employee attrition risk using HR analytics and predictive modeling.
 
@@ -82,16 +82,11 @@ Modern responsive interface with custom styling and multi-page navigation.
 
 # 🏆 Final Model Selection
 
-Gradient Boosting (SMOTE) achieved the highest Recall score of **0.98**, making it highly effective at detecting employee attrition cases.
+Gradient Boosting (SMOTE) achieved the highest Recall score of 0.98, making it highly effective at detecting employee attrition cases and delivering the strongest raw classification performance.
 
-However, **Logistic Regression (Tuned)** with an **F1-score of 0.30** and **Recall of 0.51** was selected as the final deployed model because it provided a better balance between:
+However, Logistic Regression (Tuned) was selected as the final deployed model due to its simpler architecture, better interpretability, lower computational cost, reduced risk of overfitting, and more stable real-world deployment performance on the imbalanced dataset.
 
-- Recall
-- F1-Score
-- Stability
-- Generalization performance
 
-This resulted in more reliable and stable overall performance on the imbalanced employee attrition dataset.
 
 ---
 
