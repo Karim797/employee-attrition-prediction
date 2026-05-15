@@ -213,4 +213,4 @@ Developed by **Karim Deheya**
 
 📓 [Google Colab Notebook](https://colab.research.google.com/drive/1k13CKNsvGHIc7JR00XD_SaZIRWCP9qvm)
 
-🎥 [Video Demo](https://drive.google.com/file/d/1z0UB8xs0aFASncC_oeWZdBcLZ5JTlPej/view?usp=drive_link)
+🎥 [Video Demo](https://drive.google.com/file/d/1iEww-rezVnLI0KRLFfaPXo7t_9oaatet/view)
