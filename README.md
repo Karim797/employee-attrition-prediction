@@ -210,6 +210,6 @@ Developed by **Karim Deheya**
 
 🔗 [Live Dashboard](https://employee-attrition-prediction-zjeapazbjm2du7jthbkddr.streamlit.app/Employee_Attrition_Prediction)
 
-📓 [Colab Notebook](https://colab.research.google.com/drive/1wQwRJ_Ox6zbnLozD7DKYD9B8NfjWuAKm?usp=drive_link)
+📓 [Google Colab Notebook](https://colab.research.google.com/drive/1k13CKNsvGHIc7JR00XD_SaZIRWCP9qvm)
 
 🎥 [Video Demo](https://drive.google.com/file/d/1z0UB8xs0aFASncC_oeWZdBcLZ5JTlPej/view?usp=drive_link)
