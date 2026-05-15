@@ -82,18 +82,19 @@ Modern responsive multi-page interface with clean navigation.
 
 # 🏆 Final Model Selection
 
-**Logistic Regression with SMOTE** was selected as the final deployment model because it provided the best overall balance between **Recall and F1-score** for this imbalanced employee attrition classification problem.
+Logistic Regression with SMOTE was selected as the final deployment model because it achieved the best balance between Recall and F1-score for this imbalanced employee attrition classification problem.
 
-Although **Decision Tree** achieved a higher Recall score, Logistic Regression with SMOTE demonstrated more stable and balanced performance, making it a more reliable choice.
+Since predicting employee attrition is a recall-sensitive business problem, correctly identifying employees at risk of leaving is more important than maximizing overall accuracy alone.
 
-Additionally, it offers:
+Compared with other evaluated models, Logistic Regression with SMOTE delivered the most balanced and reliable performance while maintaining strong interpretability and efficient deployment characteristics.
 
-- Better interpretability
-- Lower risk of overfitting
-- Faster prediction speed
-- Lower computational cost
-- Better suitability for real-world HR deployment
+Advantages of this model include:
 
+- High interpretability for HR decision-making
+- Lower risk of overfitting compared with complex tree-based models
+- Fast prediction speed
+- Low computational cost
+- Strong suitability for real-world HR deployment
 ---
 
 # 🙏 Acknowledgment
